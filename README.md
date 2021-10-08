@@ -14,6 +14,8 @@ First you need to be logged in through the `gh` CLI tool.
 
 Clone the repository of yours (the one you want to access the GitHub Actions in them and delete the unused ones) or if you have it already on your local machine you need to go that directory.
 
+Give permission like `chmod 777 main.sh` to the script and run it like `./main.sh` or `sh main` depending on what shell you're using.
+
 e.g `cd <your-project>` . Then you need to have the downloaded [script](https://github.com/Jerilok/github-actions-workflow-remover/blob/main/main.sh) to your project root. (I will try to make nicer way for this soon, homebrew or something but this tool will not be needed in near future ¯\_(ツ)_/¯ ) .
 
 Then for executing it you can run `./main.sh` and go through the instructions.
