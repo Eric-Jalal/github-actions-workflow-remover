@@ -7,10 +7,6 @@ Green='\033[0;32m'        # Green
 NC='\033[0m'              # No color
 Cyan='\033[0;36m'         # Cyan
 
-echo -e "Lets remove some redundant workflows from your Github Actions!"
-
-echo -e "Make sure you have already 'gh' and 'jq' tools installed on your machine and you're logged in to your Github account through gh"
-
 echo -e "${Cyan}Fetching workflow IDs${NC}"
 
 gh workflow list
